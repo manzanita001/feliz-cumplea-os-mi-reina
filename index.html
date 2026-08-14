@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Cumpleaños Mi Reina</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-image: url('fondo.jpg'); /* reemplaza con tu imagen */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-family: 'Playfair Display', serif;
+      color: #f5e6c8;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    h1, h2 {
+      font-family: 'Cormorant Garamond', serif;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    h1 { font-size: 70px; margin-bottom: 0; }
+    h2 { font-size: 55px; margin-top: 0; }
+
+    p {
+      font-size: 20px;
+      max-width: 600px;
+      margin: 20px auto;
+      text-shadow: 1px 1px 3px #000;
+    }
+
+    .interactive {
+      margin-top: 40px;
+      font-size: 40px;
+      letter-spacing: 10px;
+    }
+
+    .interactive span {
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+
+    .interactive span:hover {
+      color: #ffd700;
+    }
+
+    .poema {
+      display: none;
+      font-size: 22px;
+      max-width: 700px;
+      margin: 40px auto;
+      line-height: 1.6;
+      text-shadow: 1px 1px 3px #000;
+    }
+
+    .volver {
+      display: inline-block;
+      margin-top: 30px;
+      font-size: 18px;
+      color: #ffd700;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .volver:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <!-- Contenido principal -->
+  <div id="inicio">
+    <h1>FELIZ CUMPLEAÑOS</h1>
+    <h2>MI REINA</h2>
+    <p>espero tengas un hermoso cumpleaños, y te guste este pequeño regalo ♥ (presiona cada letra de my queen jsjs).</p>
+
+    <div class="interactive">
+      <span onclick="mostrarPoema('M')">M</span>
+      <span onclick="mostrarPoema('Y')">Y</span>
+      <span onclick="mostrarPoema('Q')">Q</span>
+      <span onclick="mostrarPoema('U')">U</span>
+      <span onclick="mostrarPoema('E1')">E</span>
+      <span onclick="mostrarPoema('E2')">E</span>
+      <span onclick="mostrarPoema('N')">N</span>
+    </div>
+  </div>
+
+  <!-- Área de poemas -->
+  <div id="poema-M" class="poema">
+    <h2>M</h2>
+    <p>Para mi amada reina y dueña de mi amor
+Hoy este día, este bello y hermoso día me palpita a mil el corazón
+Pues si bien este tiempo eh tratado con esto el dolor
+También con los sentimientos que surgen por pensarte sin razón
+Hablo de esta tierna y bella princesa 
+Fabiola, la definición de amor que este mundo me expresa
+Pues me dejaste embobado, eso no debe ser sorpresa
+Pues de tus encantos, caí cual carnada come la presa
+Mi dulce y bella princesa, vuelvo a tenerte en mi mente
+¿Vuelvo? Perdóname por mentir, siempre estas presente
+Cambiaste totalmente mi vida, y lo veo claramente
+Y es que te amo con todo mi corazón y siempre lo hare evidente
+Aun recuerdo tu voz, tu hermosa y bella voz al cantar
+Aquella que libremente junto con tus rasgos te hacia brillar
+Soy un loco, el loco quiqui que ronda por las calles
+Aquel que es leyenda ahora por oír su llanto en los valles
+Por perder lo que lo volvía loco, o más bien alejarse
+Por ver el daño que causaba a su gran amor, se prohibió más quedarse
+Para mi bella Fabiola dueña de mi ser, vengo a decirte cuanto te amo y extraño 
+Como también no soy tonto, vengo con este par de poemas a desearte un feliz cumpleaños
+.</p>
+    <div class="volver" onclick="volverInicio()">Volver al inicio</div>
+  </div>
+
+  <div id="poema-Y" class="poema">
+    <h2>Y</h2>
+    <p>Mi niña, mi dulce flor
+Extraño tan tu tacto, extraño tanto tu bello olor
+El olor del ambiente que solía ser construido
+Es tan hermoso, que al recordar me encuentro perdido
+Entre tu carita preciosa
+Como también tu sonrisa hermosa
+En tus preciosos labios
+En tu mirada, en esos ojos cálidos
+En cuando estabas ya tumbada
+Y tu carita se postraba en su almohada
+Pues para dormir esta reina se preparaba
+Sin antes darnos aquella del día la última mirada
+Para no poder evitar sonreír y desearle buenas noches a mi amada
+Mi reina preciosa, estrellita que brilla con intenso fulgor
+No podía permitirme más causarte dolor
+Este pirata no mira el cielo buscando estrellas
+Pues lo que siempre ve es a su amada, dibujada en ellas
+Nunca dejare de amarte
+Ni tampoco de pensarte
+Fuiste quien abrió una puerta de un edificio pensaba abandonado
+¿Lo hiciste a la fuerza?
+O tal vez fue tan fácil, a sabiendas de tu gran belleza
+Solo se que vuelvo a gritarlo, de ti estoy y estaré siempre enamorado
+.</p>
+    <div class="volver" onclick="volverInicio()">Volver al inicio</div>
+  </div>
+
+  <div id="poema-Q" class="poema">
+    <h2>Q</h2>
+    <p>Mi tierna y dulce niña lo puedes conseguir
+Hablo de todo lo que buscas, pues nadie te puede competir
+Tus objetivos sé que podrás cumplir
+Pues siempre te levantas, siempre lo veo en ti
+Aquella mirada y esfuerzo tuyo lo grita
+Lo que siempre hace que mi corazón más fuerte palpita
+Era esa tonalidad suave de voz mientras esos bellos ojos me miraban
+Y donde los míos destellos sin parar pues a mi bella reina contemplaban
+El viento sigue diciéndome tu nombre aun en tu ausencia
+Y en mis sueños me da a probar el cálido sentir de tu presencia
+Entre nosotros no podía más esperar
+Al momento de poder tenerte y desearte abrazar
+En un punto donde solo nosotros y en tus brazos poderme acurrucar
+O en las cálidas o frías noches hasta dormir el poderte arrullar
+Nunca pienso negarlo, de ti más que amor yo me enamore
+Perdidamente y en cada cosa que me lo transmita tu voz escuchare
+Lo que en mi visión se cruce en ello a ti observare
+Lo que sea similar a tus gustos a ti asemejare
+Y puedo dar de ello mil ejemplos pues nunca acabare
+Como también estoy seguro de que por siempre mi reina te amare.
+.</p>
+    <div class="volver" onclick="volverInicio()">Volver al inicio</div>
+  </div>
+
+  <div id="poema-U" class="poema">
+    <h2>U</h2>
+    <p>Mi amada y bella rosa, aquí tu pirata que siempre será tuyo
+Nuevamente debo y no creerás con cuanto el orgullo
+De felicitarte en tu día especial
+Pues hoy no es siquiera un día casual
+Son dos fechas que increíblemente se fueron a encontrar
+Pues un día antes de tu cumpleaños, el mundo me permitió a ti conocer
+A quien rápidamente haría que con todo diga “ella es dueña de mi ser”
+Como siquiera podría no estar contento
+Si hoy es cuando diste tu primer aliento
+Cuando Dios finalizo su mejor obra, su mejor creación
+Aquella fue mi reina, hecha a semejanza de aquella canción
+Aquella que en su nombre dice “ethereal”
+Aquellas melodías me hacen recordar
+A mi reina cuya perfección es ideal
+Si algo pudiera sépalo que sería tus labios besar
+Y saber que es tu cumpleaños no me para de emocionar
+Pues me hace pensar mucho no lo puedo negar
+Que durante todos estos años entre ellos se me permitió contigo estar
+Mas que solo conocerte pues me termine por enamorar
+Y como no hacerlo si eres tan perfecta que lo mínimo es a ti amar
+Pero dentro de todo lo que quiero decir es mi reina por tu cumpleaños te quiero felicitar.
+.</p>
+    <div class="volver" onclick="volverInicio()">Volver al inicio</div>
+  </div>
+
+  <div id="poema-E1" class="poema">
+    <h2>E</h2>
+    <p>Esto es una oda, una oda al mar
+Así es aquello que si lo piensas nos hizo conectar
+Pues a base de esas praderas azules, me hice pirata y navegar
+Navegar encontrándome en el camino a ti, mi reina siempre te voy a amar
+Con esa bella carita no paro de soñar
+Pues es porque me dispuse al océano cruzar
+Todo con la esperanza de en mis manos poderte tomar
+Aun sabiendo lo lejano de nuestros gustos
+Yo los prados verdes y tus los azules oleajes
+Que seriamos el uno sin el otro, no se formarían hermosos paisajes
+Es curioso pensarlo de una manera diferente
+Yo cruzando mares para asentarme en tierra junto a mi reina y su bella carita
+Y mi reina mirando el basto e interminable mar a esperas de su pirata
+Fue en aquellos gustos que me base para generar aquella historia
+Ver lo feliz que te hizo con cada detalle que hice créeme que fue mi mayor gloria
+Hoy nuevamente tu cumpleaños se ha de celebrar
+Y yo no puedo más agradecerte a ti mi bella reina, a ti al gran mar
+.</p>
+    <div class="volver" onclick="volverInicio()">Volver al inicio</div>
+  </div>
+
+  <div id="poema-E2" class="poema">
+    <h2>E</h2>
+    <p>Aun después de todo sigo soñándote
+Aun después de todo sigo recordándote
+Sigues presente en mi memoria y eso no será diferente
+Mi reina hermosa, a cada que oigo la canción
+Vuelve a mi aquella hermosa y bella sensación
+Por recordar de ese perfecto sueño la ocasión 
+Eres la mas bella, la mas bella que piso este planeta
+Si nuestra historia se hiciera película me la vería mil veces completa
+Y por ello estoy feliz y con toda la emoción 
+De que mi bella reina tenga hoy su merecida celebración
+Por que tu mas que nadie lo merece
+Nadie opacara tu brillo pues es el que más resplandece
+Estrellita, una estrellita fugaz eres
+Viniste cumpliendo un deseo que esta pirata no sabía que tenia
+El poder ver un poco mas de brillo y esforzarme cada día
+Por un sueño que sepultado lo creía
+Fue esta hermosa princesa y con sus encantos quien lo reviviría
+Y créeme más feliz yo estar no podría
+Sigue brillando oh estrellita mía
+Me mantendré viéndolo aun en la lejanía
+Y feliz de como avanzas y recordar que algún día fue mía
+.</p>
+    <div class="volver" onclick="volverInicio()">Volver al inicio</div>
+  </div>
+
+  <div id="poema-N" class="poema">
+    <h2>N</h2>
+    <p>Mi querida y amada reina, esto ya no será un poema sino unas palabras, pues quiero ser directo contigo preciosa y de verdad te deseo con todo mi corazón un muy feliz y hermoso cumpleaños, por que eres merecedora de ello y de todo lo bueno que ocurra por que fui testigo del esfuerzo y pasión que esta bella reina es capaz, por eso domino mi ser y mi corazón
+Y sabes bien que no pondré excusas pues por ti pierdo la razón 
+Agradezco tanto el haber tenido la posibilidad de conocerte
+De entre todas las posibilidades poder en mi vida tenerte presente
+El saber que por primera vez en mi vida recibía un apodo cariñoso
+Aprender cosas junto a ti y el camino que recorrimos lo pasaría mil veces
+Fuiste luz en un túnel interminable sin visión guiando e iluminando cada paso a dar, eres y siempre increíble serás mi amor, de eso nunca debes dudar, mi niña hermosa cada que te hacías bolita me daban ganas de irte a acurrucar, mientras entre palabras y caricias te podría arrullar
+Eres una belleza, una sin igual, lo humana y sintiente que eres me hace flotar de tan solo recordar, ten un lindo y hermoso cumpleaños mi solecito, mi corazón y bella rosa, de todas la princesa mas hermosa, disfruta de comer tu comidita favorita, de que kaikai a ladridos te diga “felicidades mamita” esa pequeña y preciosa bolita de pelos, mi vida eres y siempre serás mi baile inolvidable, mi bella y hermosa flor, es tan coincidente que un día antes de tu cumpleaños nos conociéramos, sigo pensando que es el destino guiado tras mis pasados pensamientos que te comente, te amo y mas que eso de ti estoy y estaré enamorado, de verdad el estar contigo es de ser afortunado, disfruta tu día especial y sin fin por favor amor mío
+Y recuerda, de este pirata, de esta manzanita, de este loquito quiqui, siempre serás, siempre en cada momento, eres MY QUEEN
+.</p>
+    <div class="volver" onclick="volverInicio()">Volver al inicio</div>
+  </div>
+
+  <script>
+    function mostrarPoema(letra) {
+      // Ocultar inicio
+      document.getElementById('inicio').style.display = 'none';
+      // Ocultar todos los poemas
+      document.querySelectorAll('.poema').forEach(div => div.style.display = 'none');
+      // Mostrar el seleccionado
+      document.getElementById('poema-' + letra).style.display = 'block';
+    }
+
+    function volverInicio() {
+      // Ocultar todos los poemas
+      document.querySelectorAll('.poema').forEach(div => div.style.display = 'none');
+      // Mostrar inicio
+      document.getElementById('inicio').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
